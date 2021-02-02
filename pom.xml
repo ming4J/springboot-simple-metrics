@@ -26,6 +26,13 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.sonatype.oss/oss-parent -->
+        <dependency>
+            <groupId>org.sonatype.oss</groupId>
+            <artifactId>oss-parent</artifactId>
+            <version>9</version>
+            <type>pom</type>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -54,4 +61,24 @@
             <version>1.1.18</version>
         </dependency>
     </dependencies>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <tag>main</tag>
+        <url>git@github.com:ming4J/springboot-simple-metrics.git</url>
+        <connection>scm:git@github.com:ming4J/springboot-simple-metrics.git</connection>
+        <developerConnection>scm:git@github.com:ming4J/springboot-simple-metrics.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <name>shaoming</name>
+            <email>vx.shao@gamil.com</email>
+            <organization>mor</organization>
+        </developer>
+    </developers>
 </project>
