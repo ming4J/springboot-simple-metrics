@@ -17,7 +17,6 @@
     <version>0.1</version>
     <packaging>pom</packaging>
     <name>springboot-simple-metrics</name>
-    <description>Prometheus simple client for springboot</description>
     <parent>
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
@@ -137,11 +136,11 @@
             </build>
             <distributionManagement>
                 <snapshotRepository>
-                    <id>oss</id>
+                    <id>snapshotRepository</id>
                     <url>https://oss.sonatype.org/content/repositories/snapshots</url>
                 </snapshotRepository>
                 <repository>
-                    <id>oss</id>
+                    <id>repository</id>
                     <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
                 </repository>
             </distributionManagement>
